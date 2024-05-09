@@ -16,14 +16,23 @@
 				<div class="form-group col-md-4">
 					<label for="first-name-input" class="form-label">First Name</label><br>
 					<input class="form-control" type="text" id="first-name-input" required>
+					<div class="invalid-feedback">
+                    Please provide a valid first name.
+                </div>
 				</div>
 				<div class="form-group col-md-4">
 					<label for="last-name-input" class="form-label">Last Name</label><br>
 					<input class="form-control" type="text" id="last-name-input" required>
+					<div class="invalid-feedback">
+                    Please provide a valid first name.
+                </div>
 				</div>
 				<div class="form-group col-md-4">
 					<label for="email-input" class="form-label">Email Address</label><br>
 					<input class="form-control" type="email" placeholder="xyz@abc.com" id="email-input" required>
+					<div class="invalid-feedback">
+                    Please provide a valid first name.
+                </div>
 				</div>
 			</div>
 
@@ -31,9 +40,12 @@
 				<div class="col-md-6">
 					<label for="college-input" class="form-label">College</label><br>
 					<input type="text" id="college-input" class="form-control" required>
+					<div class="invalid-feedback">
+                    Please provide a valid first name.
+                </div>
 				</div>
 				<div class="col-md-3">
-					<label for="graduation-year-input" class="form-label">Graduation Year</label><br>
+					<label for="grad-year-select" class="form-label">Graduation Year</label><br>
 					<select class="form-select" id="grad-year-select">
 						<option selected disabled>Choose...</option>
 						<option value="2020">2020</option>
@@ -45,11 +57,17 @@
 				<div class="col-md-3">
 					<label for="roll-no-input" class="form-label">Roll No.</label><br>
 					<input type="text" id="roll-no-input" class="form-control" required>
+					<div class="invalid-feedback">
+                    Please provide a valid first name.
+                </div>
 				</div>
 			</div>
 			<div class="form-check mt-3">
 				<input class="form-check-input" type="checkbox" id="conditions-checkbox">
 				Agree to terms and conditions    
+				<div class="invalid-feedback">
+                    Please provide a valid first name.
+                </div>
 			</div>
 			<button class="btn btn-primary mt-4">Submit form</button>
 		</form>
